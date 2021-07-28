@@ -1,11 +1,27 @@
 .header {
-  width: 168px;
-  height: 580px;
-  background-color: aqua;
-}
+  width: 320px;
+  height: 598px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/cover.jpg);
 
-.h1 {
-  font-family: $font_robotoslab;
-  color: black;
-  background-color: yellow;
+  .h1__header--mobile {
+    text-align: center;
+    font-family: $font_robotoslab;
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 55px;
+    color: $font_color;
+    margin-top: 184px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .h4__header--mobile {
+    color: $font_color;
+    font-family: $font_roboto;
+    font-weight: 100;
+  }
 }
