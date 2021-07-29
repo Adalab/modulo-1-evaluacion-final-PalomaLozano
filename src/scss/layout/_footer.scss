@@ -9,27 +9,40 @@
   background-color: $back_footer_color;
   color: $font_color;
   line-height: 1.88;
+  list-style-type: none;
+  text-decoration: none;
+
+  .button__footer--mobile {
+    background-image: url(../images/ico-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 22.5px;
+    background-position-y: -50%;
+    transform: translate(Y) -50%;
+  }
 
   .first__list--footer {
     margin-top: 37px;
     color: white;
-    list-style-type: none;
     text-decoration: none;
+    list-style-type: none;
   }
 
   .second__list--footer {
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
-    list-style-type: none;
     text-decoration: none;
+    list-style-type: none;
   }
 }
 
 .we__components {
   display: inline-flex;
   justify-content: center;
-
   margin-bottom: 45px;
 
   .heart {
