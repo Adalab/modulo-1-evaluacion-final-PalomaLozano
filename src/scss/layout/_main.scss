@@ -9,6 +9,11 @@
     margin-right: 39px;
   }
 
+  @media screen and (min-width: 1280px) {
+    margin-left: 275px;
+    margin-right: 275px;
+  }
+
   .insomnia__tips {
     color: $insomnia_tips;
     font-family: $font_roboto;
@@ -18,11 +23,19 @@
     @media screen and (min-width: 768px) {
       line-height: 3.14;
     }
+
+    @media screen and (min-width: 1280px) {
+      font-size: 16px;
+    }
   }
 
   .looking__through {
     text-transform: capitalize;
     font-family: $font_robotoslab;
+
+    @media screen and (min-width: 1280px) {
+      font-size: 32px;
+    }
   }
 
   .looking__paragraph {
@@ -31,6 +44,11 @@
     margin-top: 15px;
     line-height: 30px;
     font-size: 18px;
+
+    @media screen and (min-width: 1280px) {
+      font-size: 20px;
+      line-height: 1.5;
+    }
   }
 
   .rectangle__button {
@@ -103,6 +121,11 @@
   text-transform: capitalize;
   margin-top: 60px;
   line-height: 30px;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 32px;
+    line-height: 1.5;
+  }
 }
 
 .first__reason--article {
@@ -156,6 +179,11 @@
     font-size: 24px;
     width: 212.3px;
   }
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    width: 212.3px;
+  }
 }
 
 .paragraph__article {
@@ -182,6 +210,10 @@
   background-color: $orange_button;
   border-radius: 22.5px;
   box-shadow: 1px 1px 5px rgb(129, 129, 129);
+
+  @media screen and (min-width: 1280px) {
+    width: 255px;
+  }
 
   &:hover {
     animation: changeColorTwo 3s infinite;
