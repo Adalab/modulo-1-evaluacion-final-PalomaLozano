@@ -1,0 +1,57 @@
+.article__insomnia--mobile {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+
+  .insomnia__tips {
+    color: $insomnia_tips;
+    font-family: $font_roboto;
+    text-transform: capitalize;
+    margin-top: 30px;
+  }
+
+  .looking__through {
+    text-transform: capitalize;
+    font-family: $font_robotoslab;
+  }
+
+  .looking__paragraph {
+    font-family: $font_roboto;
+    color: #4a4a4a;
+    margin-top: 15px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  .rectangle__button {
+    display: flex;
+    justify-content: center;
+    width: 76px;
+    height: 45px;
+    border: solid 2px #f26002;
+    border-radius: 22.5px;
+    margin-top: 30px;
+
+    &:hover {
+      animation: changeColor 3s infinite;
+    }
+
+    @keyframes changeColor {
+      from {
+        background-color: rgb(246, 186, 186);
+      }
+
+      to {
+        background-color: rgb(170, 228, 246);
+      }
+    }
+  }
+
+  .button__go {
+    font-family: $font_roboto;
+    font-size: 20px;
+    color: #f26002;
+    line-height: 45px;
+    text-transform: capitalize;
+  }
+}
