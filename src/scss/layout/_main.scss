@@ -42,6 +42,7 @@
     border-radius: 22.5px;
     margin-top: 30px;
     margin-bottom: 45px;
+    box-shadow: 1px 1px 5px rgb(179, 179, 179);
 
     &:hover {
       animation: changeColor 3s infinite;
@@ -180,6 +181,7 @@
   margin-bottom: 60px;
   background-color: $orange_button;
   border-radius: 22.5px;
+  box-shadow: 1px 1px 5px rgb(129, 129, 129);
 
   &:hover {
     animation: changeColorTwo 3s infinite;
