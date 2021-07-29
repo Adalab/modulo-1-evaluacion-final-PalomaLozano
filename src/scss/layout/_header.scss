@@ -6,11 +6,16 @@
   justify-content: center;
   align-items: center;
   background-image: url(../images/cover.jpg);
-  background-repeat: no-repeat;
 
   @media screen and (min-width: 768px) {
     min-width: 768px;
     min-height: 768px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    min-width: 1280px;
+    min-height: 768px;
+    background-size: cover;
   }
 
   .menu__ham--mobile {
@@ -41,6 +46,14 @@
       line-height: 106px;
       margin-top: 384px;
     }
+
+    @media screen and (min-width: 1280px) {
+      font-size: 100px;
+      line-height: 1.32;
+      margin-top: 384px;
+      margin-left: 275px;
+      margin-right: 275px;
+    }
   }
 
   .h4__header--mobile {
@@ -65,5 +78,9 @@
     border-radius: 50%;
     margin-top: 45px;
     box-shadow: 2px 2px 10px rgb(0, 0, 0);
+
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 15px;
+    }
   }
 }

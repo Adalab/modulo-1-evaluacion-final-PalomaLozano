@@ -24,11 +24,25 @@
     box-shadow: 2px 2px 10px rgb(46, 46, 46);
   }
 
+  .tablet__box--list {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+  }
+
   .first__list--footer {
     margin-top: 37px;
     color: white;
     text-decoration: none;
     list-style-type: none;
+
+    @media screen and (min-width: 768px) {
+      margin-right: 120px;
+    }
   }
 
   .second__list--footer {
@@ -47,5 +61,15 @@
 
   .heart {
     color: $orange_button;
+  }
+}
+
+.footer__components {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 50px;
+    margin-left: 80px;
   }
 }
