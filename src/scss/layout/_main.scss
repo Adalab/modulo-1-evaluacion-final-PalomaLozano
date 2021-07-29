@@ -29,7 +29,7 @@
     justify-content: center;
     width: 76px;
     height: 45px;
-    border: solid 2px #f26002;
+    border: solid 2px $orange_button;
     border-radius: 22.5px;
     margin-top: 30px;
     margin-bottom: 45px;
@@ -54,7 +54,7 @@
   .button__go {
     font-family: $font_roboto;
     font-size: 20px;
-    color: #f26002;
+    color: $orange_button;
     line-height: 45px;
     text-transform: capitalize;
   }
@@ -120,7 +120,7 @@
   height: 45px;
   margin-top: 45px;
   margin-bottom: 60px;
-  background-color: #f26002;
+  background-color: $orange_button;
   border-radius: 22.5px;
 
   &:hover {
@@ -129,7 +129,7 @@
 
   @keyframes changeColorTwo {
     from {
-      background-color: #f26002;
+      background-color: $orange_button;
     }
 
     to {
