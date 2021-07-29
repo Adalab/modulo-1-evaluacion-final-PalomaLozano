@@ -48,13 +48,14 @@
     background-color: white;
     border-radius: 50%;
     margin-top: 45px;
+
     &:hover {
       animation: changeColor 3s infinite;
     }
 
     @keyframes changeColor {
       from {
-        background-color: white;
+        background-color: rgb(246, 186, 186);
       }
 
       to {
