@@ -143,10 +143,6 @@
     margin-left: 28px;
     margin-right: 28px;
   }
-
-  @media screen and (min-width: 1280px) {
-    margin-left: 280px;
-  }
 }
 
 .second__reason--article {
@@ -161,10 +157,6 @@
     margin-left: 28px;
     margin-right: 28px;
   }
-
-  @media screen and (min-width: 1280px) {
-    margin-left: 150px;
-  }
 }
 
 .third__reason--article {
@@ -178,10 +170,6 @@
     grid-column: 5 / 6;
     margin-left: 28px;
     margin-right: 28px;
-  }
-
-  @media screen and (min-width: 1280px) {
-    margin-left: 150px;
   }
 }
 
@@ -239,7 +227,7 @@
     }
   }
 
-  .more__reasons {
+  .morereasons {
     font-family: $font_roboto;
     color: $font_color;
     font-size: 20px;
