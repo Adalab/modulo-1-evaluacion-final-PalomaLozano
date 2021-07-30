@@ -9,8 +9,6 @@
   background-color: $back_footer_color;
   color: $font_color;
   line-height: 1.88;
-  list-style-type: none;
-  text-decoration: none;
 
   .button__footer--mobile {
     background-image: url(../images/ico-arrow.svg);
@@ -37,9 +35,6 @@
   .first__list--footer {
     margin-top: 37px;
     color: white;
-    text-decoration: none;
-    list-style-type: none;
-
     @media screen and (min-width: 768px) {
       margin-right: 120px;
     }
@@ -49,8 +44,6 @@
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
-    text-decoration: none;
-    list-style-type: none;
   }
 }
 
