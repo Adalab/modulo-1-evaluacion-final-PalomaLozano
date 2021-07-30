@@ -102,20 +102,23 @@
 
 .reasonstopurchase {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   background-color: $back_main_color;
 
   @media screen and (min-width: 768px) {
     min-width: 768px;
-    transform: translateY(center);
+    /*transform: translateY(center);
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 }
 
 .title__reasons {
-  grid-column: 1 / 5;
+  grid-column: 1 / 6;
   font-family: $font_robotoslab;
   text-align: center;
   text-transform: capitalize;
@@ -129,42 +132,42 @@
 }
 
 .first__reason--article {
-  grid-column: 1 / 5;
+  grid-column: 1 / 6;
   text-align: center;
   margin-left: 70px;
   margin-right: 70px;
 
   @media screen and (min-width: 768px) {
     text-align: center;
-    grid-column: 1 / 1;
+    grid-column: 1 / 2;
     margin-left: 28px;
     margin-right: 28px;
   }
 }
 
 .second__reason--article {
-  grid-column: 1 / 5;
+  grid-column: 1 / 6;
   text-align: center;
   margin-left: 70px;
   margin-right: 70px;
 
   @media screen and (min-width: 768px) {
     text-align: center;
-    grid-column: 2 / 2;
+    grid-column: 3 / 4;
     margin-left: 28px;
     margin-right: 28px;
   }
 }
 
 .third__reason--article {
-  grid-column: 1 / 5;
+  grid-column: 1 / 6;
   text-align: center;
   margin-left: 70px;
   margin-right: 70px;
 
   @media screen and (min-width: 768px) {
     text-align: center;
-    grid-column: 3 / 3;
+    grid-column: 5 / 6;
     margin-left: 28px;
     margin-right: 28px;
   }
@@ -174,11 +177,6 @@
   font-family: $font_robotoslab;
   font-size: 18px;
   margin-top: 40px;
-
-  @media screen and (min-width: 768px) {
-    font-size: 24px;
-    width: 212.3px;
-  }
 
   @media screen and (min-width: 768px) {
     font-size: 24px;
@@ -199,7 +197,7 @@
 
 .button__reasons {
   display: grid;
-  grid-column: 1 / 5;
+  grid-column: 1 / 6;
   align-content: center;
   text-align: center;
   justify-self: center;
