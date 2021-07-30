@@ -63,7 +63,7 @@
     box-shadow: 1px 1px 5px rgb(179, 179, 179);
 
     &:hover {
-      animation: changeColor 3s infinite;
+      animation: changeColor 6s;
     }
 
     @keyframes changeColor {
@@ -214,7 +214,7 @@
   }
 
   &:hover {
-    animation: changeColorTwo 3s infinite;
+    animation: changeColorTwo 6s;
   }
 
   @keyframes changeColorTwo {
